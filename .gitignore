@@ -1,0 +1,18 @@
+.env
+.idea
+.vagrant
+*.pyc
+*.retry
+*.sublime-project
+*.sublime-workspace
+tmp
+
+
+.DS_Store
+
+whoyouproject/local_settings.py
+/media/
+
+# Emacs backup and lock files
+*~
+\#*
