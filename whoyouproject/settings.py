@@ -26,7 +26,7 @@ SECRET_KEY = '!yvnzv13)2y6(c0=dd_3o%ax1a#z!f59%w!))##b_q_opubh9-'
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 ADMINS = (
     ('admin', 'kentoyfueconcillo@gmail.com'),
@@ -177,7 +177,7 @@ CORS_ORIGIN_WHITELIST = (
     'localhost:4200',
     'localhost:8000',
     'localhost:6379',
-    'https://whoyou.herokuapp.com'
+    'whoyou.herokuapp.com'
 )
 
 CORS_ALLOW_METHODS = (
