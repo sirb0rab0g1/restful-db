@@ -177,7 +177,7 @@ CORS_ORIGIN_WHITELIST = (
     'localhost:4200',
     'localhost:8000',
     'localhost:6379',
-    'whoyou.herokuapp.com'
+    'https://whoyou.herokuapp.com'
 )
 
 CORS_ALLOW_METHODS = (
