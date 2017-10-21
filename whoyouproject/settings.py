@@ -99,7 +99,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'whoyouproject.wsgi.application'
 
-# DATABASE_CONFIG = 'postgres://p3:p3@127.0.01:5432/p3'
+DATABASE_CONFIG = 'postgres://gmzzryobfzrmdf:9fcb359d7762082dbe9e6c3aa69f733b9a7969990c62c9f46cfdab491466416b@ec2-107-20-188-239.compute-1.amazonaws.com:5432/deiti9cjqg7vvd'
 DATABASE_CONN_MAX_AGE = 0  # No persistent connections.
 
 # Database
