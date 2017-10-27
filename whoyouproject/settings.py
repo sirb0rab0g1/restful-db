@@ -173,7 +173,7 @@ CHANNEL_LAYERS = {
     "default": {
         "BACKEND": "asgi_redis.RedisChannelLayer",
         "CONFIG": {
-            "hosts": [("localhost", 6379)],
+            "hosts": [("whoyou.herokuapp.com", 6379)],
         },
         "ROUTING": "whoyouproject.routing.channel_routing",
     },
