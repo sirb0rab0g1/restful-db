@@ -24,9 +24,9 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 # SECURITY WARNING: don't run with debug turned on in production!
 SECRET_KEY = '!yvnzv13)2y6(c0=dd_3o%ax1a#z!f59%w!))##b_q_opubh9-'
 
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['whoyou.herokuapp.com']
 
 ADMINS = (
     ('admin', 'kentoyfueconcillo@gmail.com'),
@@ -173,7 +173,7 @@ CHANNEL_LAYERS = {
     "default": {
         "BACKEND": "asgi_redis.RedisChannelLayer",
         "CONFIG": {
-            "hosts": [("151.101.77.147", 6379)],
+            "hosts": [("localhost", 6379)],
         },
         "ROUTING": "whoyouproject.routing.channel_routing",
     },
